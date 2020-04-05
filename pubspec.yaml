@@ -1,0 +1,49 @@
+name: iwaiter
+description: Aplicativo definitivo, iwaiter.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  provider: any
+  dio: any
+  intl: ^0.15.8
+  shared_preferences: ^0.5.6+3 // VERSÃO MAIS RECENTE DA BIBLIOTECA
+  flutter_rating_bar: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/waiter.png
+  - assets/wine.png
+  - assets/vinho.png
+  - assets/restaurant.png
+  - assets/destilado.png
+  - assets/beer.png
+  - assets/sobremesa.png
+  - assets/iwaiter.png
+  - assets/profile.png
+  - assets/fundo.jpg
+  - assets/dry_martini.jpg
+  - assets/chopp.jpg
+  - assets/gin.jpg
+  - assets/gin2.jpg
+  - assets/print1.png
+  - assets/print2.png
+  - assets/print3.png
+  - assets/print4.png
+  - assets/print5.png
+  - assets/print6.png
